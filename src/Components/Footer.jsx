@@ -26,7 +26,7 @@ const Footer = () => {
                     <p>📍 Sector 79 SAS Nagar, Mohali</p>
                     <p>📧 constructioncompanykkamboj@gmail.com</p>
                     <p>📞 9814501114,9781885286</p>
-                    <p><a href="#">🌐 https://Construction.com</a></p>
+                    <p>🌐 https://Construction.com</p>
                 </div>
 
                 {/* Right Section */}

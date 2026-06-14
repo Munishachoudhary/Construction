@@ -13,8 +13,9 @@ import image11 from "../images/img5.jpeg";
 import { useState, useEffect } from "react";
 import "../Styles/Imageslider.css";
 
+const images = [image3, image4, image1, image10, image7, image2, image8, image9, image5, image10, image6, image11];
 function Imageslider() {
-  const images = [ image3, image4,image1,image10, image7,image2,image8,image9,image5,image10,image6,image11];
+
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -35,7 +36,7 @@ function Imageslider() {
 
   return (
     <div className="slider">
-  {/* <button onClick={prevSlide} className="btn">❮</button> */}
+      {/* <button onClick={prevSlide} className="btn">❮</button> */}
 
       <img
         src={images[current]}
@@ -47,4 +48,4 @@ function Imageslider() {
     </div>
   );
 }
-export default  Imageslider;
+export default Imageslider;
