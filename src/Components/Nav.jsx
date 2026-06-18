@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../images/logo.jpeg";
 import "../Styles/Nav.css"
 const Nav = () => {
@@ -8,11 +9,11 @@ const Nav = () => {
             </div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Gallery</li>
-                    <li>Services</li>
-                    <li>Contact</li>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/gallery">Gallery</Link>
+                    <Link to="/services">Services</Link>
+                    <Link to="/contact">Contact</Link>
                 </ul>
             </nav>
         </div>
