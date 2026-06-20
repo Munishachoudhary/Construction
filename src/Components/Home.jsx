@@ -9,7 +9,6 @@ const Home = () => {
         <div>
             <Nav />
             <div className="text">
-                <h5>Building Strong Foundations for a Better Tomorrow</h5>
                 <h2>K-Kamboj Construction Company</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem nesciunt distinctio aperiam eos perspiciatis illo maxime quaerat assumenda reprehenderit omnis eveniet, ducimus tenetur dolore eius molestias ipsa consequatur. Aperiam, fugit culpa iusto quis natus dolor eum quod eius voluptates.</p>
             </div>
