@@ -1,9 +1,11 @@
 import img1 from "../images/img1.jpeg";
-import img2 from "../images/img1.jpeg";
-import img3 from "../images/img1.jpeg";
-import img4 from "../images/img1.jpeg";
-import img5 from "../images/img1.jpeg";
-import img6 from "../images/img1.jpeg";
+import img2 from "../images/img2.jpeg";
+import img3 from "../images/img3.jpeg";
+import img4 from "../images/img4.jpeg";
+import img5 from "../images/img5.jpeg";
+import img6 from "../images/img6.jpeg";
+import img7 from "../images/img7.jpeg";
+import img8 from "../images/img8.jpeg";
 import Nav from "./Nav"
 import "../Styles/Gallery.css"
 import Footer from "./Footer";
@@ -41,6 +43,12 @@ const Gallery = () => {
 
                     <div className="gallery-item">
                         <img src={img6} alt="Project 6" />
+                    </div>
+                    <div className="gallery-item">
+                        <img src={img7} alt="Project 7" />
+                    </div>
+                    <div className="gallery-item">
+                        <img src={img8} alt="Project 8" />
                     </div>
                 </div>
             </div>
